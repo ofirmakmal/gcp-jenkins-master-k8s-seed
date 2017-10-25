@@ -53,7 +53,7 @@
   </definition>
   <triggers>
     <hudson.triggers.SCMTrigger>
-      <spec>H/2 * * * *</spec>
+      <spec>* * * * *</spec>
       <ignorePostCommitHooks>false</ignorePostCommitHooks>
     </hudson.triggers.SCMTrigger>
   </triggers>
